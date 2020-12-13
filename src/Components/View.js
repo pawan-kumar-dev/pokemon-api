@@ -1,7 +1,7 @@
 import { Button, CircularProgress, Typography } from "@material-ui/core";
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import { toFirstCharUppercase } from "./constant";
+import { toFirstCharUppercase } from "../utils/constant";
 const View = (props) => {
      // destructuring the id from the objects
 

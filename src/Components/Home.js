@@ -15,7 +15,7 @@ import {
      Toolbar,
      Typography,
 } from "@material-ui/core";
-import { toFirstCharUppercase } from "./constant";
+import { toFirstCharUppercase } from "../utils/constant";
 
 const useStyles = makeStyles({
      container: {
